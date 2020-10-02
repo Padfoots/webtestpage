@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <link rel="icon" type="image/jpg" / href="BookWorms.jpg" />
+         <meta charset="utf-8">
+          <meta name="description">
+          <title>Contact BookWorms</title>
+      <link rel="stylesheet" href="homepageCSS.css" ; />
+
+    
+       <style>
+           body{
+               margin: 0px; padding:0px; background-color:black;
+               background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+           }
+      .content
+           {
+                margin:130px 560px; background-color:black; width: 500px; height: 560px; position: absolute;
+                box-sizing: border-box;
+                box-shadow: 0 0 20px #000000b3;
+               font-family: "montserrat",sans-serif;
+              
+               
+           }
+           
+            .content h1
+         {
+             text-align: center;
+             font-family:serif;    
+             padding-top: 30px;
+             margin-bottom: 0px;
+             margin-top: 0;
+             font-weight: 200;
+             color:#F1EC40;
+         }
+      
+         
+     
+            .txb
+         {
+             border: 2px solid gray;
+             margin: 8px 5px;
+             padding: 12px 18px;
+             border-radius: 8px
+             
+         }
+           
+         .txb lable
+         {
+             display: block;
+             text-align: left;
+             color:white;
+             text-transform: uppercase;
+             font-size: 16px;
+             margin: 0px;
+            padding: 0px; 
+         }
+           
+          .txb input, .txb textarea 
+         {
+             
+             width: 450px;
+             border: none;
+             background-color:white;
+             outline: none;
+             font-size: 14px;
+             margin-left: 12px;
+             
+           }
+           
+           .btn
+           {
+                width:501px;
+                height: 30px;
+                text-align: center; 
+                background-color:black;
+                color:#32CD32;
+                cursor:pointer;
+                font-size:14px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                transition: 0.5s;
+                font-size:large;
+                padding-top:10px;
+           }
+       
+           p
+           {
+               color:#F1EC40;
+               font-size:70px;
+           }
+           
+      </style>
+    
+    
+    
+    </head>
+
+
+<body>
+    
+<div class="logo"><img src="BookWorms.jpg" alt="PI CAKE" width="170px" height="137px"></div>
+    <nav style="font-size:x-large;">
+  <ul>
+    <li><a href="Register.html">Login/Register</a></li>
+
+    <li class="dropdown"> <a class="dropbtn" href="index.html"> Categories <i class="arrowdown"></i> </a>
+      <div class="dropdown-content">
+        <a href="#">Drama</a>
+        <a href="#">Sci-Fi</a>
+        <a href="#">Science</a>
+        <a href="#">Religion</a>
+        <a href="#">History</a>
+        <a href="#">Kids</a>
+      </div>
+    </li>
+
+    <li><a href="Authors.html">Authors</a> </li>
+    <li><a href="MyLibrary.html">My library</a></li>
+    <li><a href="Contact%20Us.html">Contact Us</a></li>
+  </ul>
+</nav>
+    
+    <div style="text-align:center">
+        
+        <br>
+    <p style="font-size: 60px">BookWorms Location<br></p>
+    <p> <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3452.599336746157!2d31.2829183!3d30.0770172!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1ccd201d070672!2sFaculty%20of%20Computer%20and%20Information%20Sciences%20-%20Ain%20Shams%20University!5e0!3m2!1sen!2seg!4v1600444839223!5m2!1sen!2seg"
+            width="1340" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabHomepage="0"></iframe></p>
+    <p style="font-size: large; ">Phone Number: ########### <br></p>
+    <p style="font-size: large;">Tel: (+2)#########</p>
+</div>
+
+    
+    </body>
+   <div class="content">
+    
+    <h1>Contact Us</h1>
+    <br>
+       <div class="txb">
+
+    <lable>Your Name:</lable> 
+    <br>  
+    <input type="text" placeholder="Type Your Name" max="15">
+           <br></div>
+    <div class="txb">
+    <lable>Your E-mail:</lable>
+        <br>
+        <input type="email" placeholder="Type Your E-mail" >
+        <br></div>
+    <div class="txb">
+    <lable>Your Number:</lable>
+        <br>
+        <input type="number" placeholder="Type Your Number" max="15">
+        <br></div>
+    <div class="txb">
+    <lable>Message:</lable>
+        <br>
+    <textarea></textarea>
+    </div>
+       <a type="button" class="btn" onclick="Message();">Send</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <script>
+    function Message()
+        {
+            alert("Thank You, Your message has been sent succesfully.");
+        }
+        
+    </script>
+     
+</html>
